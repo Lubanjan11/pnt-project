@@ -1,0 +1,430 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Langing on MCT Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5056129800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open browser chrome",
+            "match": {
+              "location": "mct_login_steps.i_open_browser_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1225891000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I land on multicart landing page",
+            "match": {
+              "location": "mct_login_steps.i_land_on_multicart_landing_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Successfull login",
+        "description": "",
+        "id": "user-login-mechanism;successfull-login",
+        "after": [
+          {
+            "result": {
+              "duration": 4328806600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "mct_login_steps.rampDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3450603000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I complete login with James valid credentails",
+            "match": {
+              "location": "mct_login_steps.i_complete_login_with_James_valid_credentails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2101692400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I expect to seee profile Name as James Williams",
+            "match": {
+              "location": "mct_login_steps.i_expect_to_seee_profile_Name_as_James_Williams()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Login Mechanism",
+    "description": "In order to get all membership benefit from multicart ecommerce \nAs a User I want to perform a online login",
+    "id": "user-login-mechanism",
+    "keyword": "Feature",
+    "uri": "mct_login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Langing on MCT Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3106894400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open browser chrome",
+            "match": {
+              "location": "mct_login_steps.i_open_browser_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1004945500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I land on multicart landing page",
+            "match": {
+              "location": "mct_login_steps.i_land_on_multicart_landing_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3516546800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I complete login with James valid credentails",
+            "match": {
+              "location": "mct_login_steps.i_complete_login_with_James_valid_credentails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3862591200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to my account page",
+            "match": {
+              "location": "mct_login_steps.I_navigate_to_my_account_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "My Account options are available",
+        "description": "",
+        "id": "my-account;my-account-options-are-available",
+        "after": [
+          {
+            "result": {
+              "duration": 99466800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "mct_login_steps.rampDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 106984300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I see all my account options available",
+            "match": {
+              "location": "mct_login_steps.I_see_all_my_account_options_available(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "My Orders"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "Profile"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "My Return Requests"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "Change Password"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "My Favorite Products"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "My Favorite Sellers"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Seller Dashboard"
+                ],
+                "line": 17
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Langing on MCT Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3098340000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open browser chrome",
+            "match": {
+              "location": "mct_login_steps.i_open_browser_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1087831300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I land on multicart landing page",
+            "match": {
+              "location": "mct_login_steps.i_land_on_multicart_landing_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3404164400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I complete login with James valid credentails",
+            "match": {
+              "location": "mct_login_steps.i_complete_login_with_James_valid_credentails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3776301100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to my account page",
+            "match": {
+              "location": "mct_login_steps.I_navigate_to_my_account_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Can be navigate to all options pages",
+        "description": "",
+        "id": "my-account;can-be-navigate-to-all-options-pages",
+        "after": [
+          {
+            "result": {
+              "duration": 82377100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "mct_login_steps.rampDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8189424000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I expect all options links are working",
+            "match": {
+              "location": "mct_login_steps.I_expect_all_options_links_are_working()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@WIP"
+          }
+        ]
+      }
+    ],
+    "name": "My Account",
+    "description": "",
+    "id": "my-account",
+    "keyword": "Feature",
+    "uri": "mct_myacccount.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Langing on MCT Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3266204800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open browser chrome",
+            "match": {
+              "location": "mct_login_steps.i_open_browser_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4145894600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I land on multicart landing page",
+            "match": {
+              "location": "mct_login_steps.i_land_on_multicart_landing_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Successfull registration",
+        "description": "",
+        "id": "user-registration-mechanism;successfull-registration",
+        "after": [
+          {
+            "result": {
+              "duration": 4318492900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "mct_login_steps.rampDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3426358400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I navigate to Registration Page",
+            "match": {
+              "location": "mct_login_steps.i_navigate_to_Registration_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1716511900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I complete registration for MR FNAME",
+            "match": {
+              "location": "mct_login_steps.i_complete_registration_for_MR_FNAME()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2064856600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I expect to seee profile Name MR FNAME",
+            "match": {
+              "location": "mct_login_steps.i_expect_to_seee_profile_Name_MR_FNAME()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Registration Mechanism",
+    "description": "In order to get all membership benefit from multicart ecommerce \nI want to registratr my self",
+    "id": "user-registration-mechanism",
+    "keyword": "Feature",
+    "uri": "mct_regestration.feature"
+  }
+]

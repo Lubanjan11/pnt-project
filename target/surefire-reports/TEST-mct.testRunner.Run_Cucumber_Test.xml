@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="23" failures="0" name="mct.testRunner.Run_Cucumber_Test" time="8.838" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ABUL\Downloads\new_way_project\multicart-bdd-auto-project"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ABUL\Downloads\new_way_project\multicart-bdd-auto-project"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ABUL\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\rasul_import\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf14602463926469377324.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-14.0.1/bin/server;C:/Program Files/Java/jdk-14.0.1/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\ABUL\Downloads\axis2-1.6.2\axis2-1.6.2\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-14.0.1\bin;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-14.0.1\bin;C:\Program Files\Vim\vim81;C:\Users\ABUL\Work\eclipse;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ABUL"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="ABUL"/>
+    <property name="java.class.path" value="C:\Users\ABUL\Work\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.13.0.20190716-1623\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\ABUL\Downloads\new_way_project\multicart-bdd-auto-project\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Successfull login" name="Given I open browser chrome" time="0.001"/>
+  <testcase classname="Scenario: Successfull login" name="And I land on multicart landing page" time="0"/>
+  <testcase classname="Scenario: Successfull login" name="When I complete login with James valid credentails" time="0"/>
+  <testcase classname="Scenario: Successfull login" name="Then I expect to seee profile Name as James Williams" time="0"/>
+  <testcase classname="Scenario: Successfull login" name="Scenario: Successfull login" time="4.331"/>
+  <testcase classname="Scenario: My Account options are available" name="Given I open browser chrome" time="0"/>
+  <testcase classname="Scenario: My Account options are available" name="And I land on multicart landing page" time="0.002"/>
+  <testcase classname="Scenario: My Account options are available" name="And I complete login with James valid credentails" time="0"/>
+  <testcase classname="Scenario: My Account options are available" name="And I navigate to my account page" time="0"/>
+  <testcase classname="Scenario: My Account options are available" name="Then I see all my account options available" time="0"/>
+  <testcase classname="Scenario: My Account options are available" name="Scenario: My Account options are available" time="0.101"/>
+  <testcase classname="Scenario: Can be navigate to all options pages" name="Given I open browser chrome" time="0"/>
+  <testcase classname="Scenario: Can be navigate to all options pages" name="And I land on multicart landing page" time="0"/>
+  <testcase classname="Scenario: Can be navigate to all options pages" name="And I complete login with James valid credentails" time="0"/>
+  <testcase classname="Scenario: Can be navigate to all options pages" name="And I navigate to my account page" time="0"/>
+  <testcase classname="Scenario: Can be navigate to all options pages" name="Then I expect all options links are working" time="0"/>
+  <testcase classname="Scenario: Can be navigate to all options pages" name="Scenario: Can be navigate to all options pages" time="0.083"/>
+  <testcase classname="Scenario: Successfull registration" name="Given I open browser chrome" time="0"/>
+  <testcase classname="Scenario: Successfull registration" name="And I land on multicart landing page" time="0"/>
+  <testcase classname="Scenario: Successfull registration" name="And I navigate to Registration Page" time="0"/>
+  <testcase classname="Scenario: Successfull registration" name="When I complete registration for MR FNAME" time="0"/>
+  <testcase classname="Scenario: Successfull registration" name="Then I expect to seee profile Name MR FNAME" time="0"/>
+  <testcase classname="Scenario: Successfull registration" name="Scenario: Successfull registration" time="4.32"/>
+</testsuite>
